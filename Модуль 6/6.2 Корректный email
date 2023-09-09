@@ -1,0 +1,5 @@
+a = input()
+if '@' not in a or '.' not in a:
+    print('NO')
+else:
+    print('YES')
