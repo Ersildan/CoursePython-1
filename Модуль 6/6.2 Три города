@@ -1,0 +1,19 @@
+a,b,c = input(), input(), input()
+if len(a) < len(b) <len(c):
+    print(a)
+    print(c)
+elif len(a) < len(c) < len(b):
+    print(a)
+    print(b)
+elif len(b) < len(a) < len(c):
+    print(b)
+    print(c)
+elif len(b) < len(c) < len(a):
+    print(b)
+    print(a)
+elif len(c) < len(a) < len(b):
+    print(c)
+    print(b)
+elif len(c) < len(b) < len(a):
+    print(c)
+    print(a)
