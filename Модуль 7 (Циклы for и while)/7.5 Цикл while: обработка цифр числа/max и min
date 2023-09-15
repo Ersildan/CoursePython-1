@@ -1,0 +1,5 @@
+num = str(input())
+a = max(num)
+b = min(num)
+print('Максимальная цифра равна', a)
+print('Минимальная цифра равна', b)
