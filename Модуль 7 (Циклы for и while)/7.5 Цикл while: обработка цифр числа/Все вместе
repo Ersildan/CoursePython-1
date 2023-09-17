@@ -1,0 +1,13 @@
+n = int(input())
+s,t = 0,0
+p = 1
+l = n % 10
+while n != 0:
+    digit = n%10
+    s += digit
+    t += 1
+    p *= digit
+    a = s/t
+    b = l + digit
+    n = n//10
+print(s,t,p,a,digit,b,sep='\n')
