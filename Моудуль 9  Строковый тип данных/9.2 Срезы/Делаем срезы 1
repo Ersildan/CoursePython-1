@@ -1,0 +1,8 @@
+stroka = input()
+print(len(stroka))
+print(stroka*3)
+print(stroka[0])
+print(stroka[0:3]) 
+print(stroka[len(stroka)-3:])
+print(stroka[::-1])
+print(stroka[1:len(stroka)-1])
