@@ -1,0 +1,10 @@
+n = input()
+total = 0
+count = 0
+for i in range (0,len(n)):
+  if n[i] in '*':
+    total += 1
+  if n[i] in '+':
+    count += 1
+print('Символ + встречается', count, 'раз')
+print('Символ * встречается', total, 'раз')
