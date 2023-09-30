@@ -1,0 +1,7 @@
+n = int(input())
+a=str()
+for i in range(n):
+    while n > 0:
+        a = str(n % 2) + a
+        n //= 2
+print(a)
