@@ -1,0 +1,8 @@
+s = input()
+a = len(s)
+b = int(a)/2
+c = int(b) + 1
+if a % 2 == 0:
+    print(s[int(b):]+s[:int(b)])
+else:
+    print(s[int(c):]+s[:int(c)])
