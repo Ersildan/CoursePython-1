@@ -1,0 +1,6 @@
+s = input()
+total = 0
+for i in range(0,len(s)):
+    if s[i] != s.upper()[i]:
+      total += 1
+print(total)
