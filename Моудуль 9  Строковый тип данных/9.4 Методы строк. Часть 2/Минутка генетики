@@ -1,0 +1,16 @@
+s = input()
+s = s.lower()
+a, g, b, t = 0, 0, 0, 0
+for i in range(0, len(s)):
+  if s[i] == 'а':
+    a += 1
+  if s[i] == 'г':
+    g += 1
+  if s[i] == 'ц':
+    b += 1
+  if s[i] == 'т':
+    t += 1
+print ('Аденин:', a)
+print ('Гуанин:', g)
+print ('Цитозин:', b)
+print ('Тимин:', t)
