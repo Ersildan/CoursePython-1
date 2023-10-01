@@ -1,0 +1,5 @@
+year = 2010
+money = '10k'
+valut = 'Bitcoin'
+s = 'In {0}, someone paid {1} {2} for two pizzas.'.format(year, money, valut)
+print(s)
