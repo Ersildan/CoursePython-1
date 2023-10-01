@@ -1,0 +1,8 @@
+n = int(input())
+total = 0
+while n != 0:
+    s = input()
+    if s.count('11') == 3 or s.count('11') > 10:
+        total += 1
+    n -= 1
+print(total)
