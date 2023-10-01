@@ -1,0 +1,4 @@
+s = input()
+start = s.find('h')
+end = s.rfind('h')
+print(s[0:start], s[end+1:len(s)], sep='')
