@@ -1,0 +1,7 @@
+s = input()
+total = 0
+a = '1234567890'
+for i in range(0, len(s)):
+    if s[i] in a:
+      total += 1
+print(total)
