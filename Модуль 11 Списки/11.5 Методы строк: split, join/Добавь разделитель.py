@@ -1,0 +1,5 @@
+s = input()
+b = input()
+c = ','.join(s)
+g = c.split(',')
+print(*g, sep=b)
